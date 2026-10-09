@@ -49,4 +49,4 @@ AI_Use,1,1,AI_Use_10,I use AI for entertainment or personal communication such a
 AI_Use,1,1,AI_Use_11,I interact with AI-powered customer-service tools to ask questions or resolve problems.,0,0,1,0,0,Never|Very often 
 AI_Use,1,1,AI_Use_12,I use AI-powered recommendations to discover products music movies news or other content.,0,0,1,0,0,Never|Very often 
 AI_Use,1,1,AI_Use_13,I use AI for personal support of advice.,0,0,1,0,0,Never|Very often 
-AI_Use,1,1,Daily_use,Considering your total usage of AI how much time per day do you use AI applications on average?,1,0,0,0,0,
+AI_Use,1,0,AI_Use_14,Considering all your AI use approximately how much time do you spend using AI applications on an average day?,1,0,0,0,0,
