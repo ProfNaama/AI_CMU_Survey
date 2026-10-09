@@ -69,7 +69,7 @@ Your participation in this research is voluntary. You may discontinue participat
 <p>
 Please indicate your agreement or disagreement with the following by selecting ""Yes"" or ""No"":
 </p>"
-pre_questionnaire,TRI-CA,Please read the following instructions,
+pre_questionnaire,TRI-CA,Please read the following instructions and answer the questions that follow.,
 post_questionnaire,TRI-CA,Thank you for participating,
 session_ended,TRI-CA,Thank You for participating in the study.<br/>,
 error,TRI-CA,We are sorry - an error has occurred. Please close your browser and try again,
