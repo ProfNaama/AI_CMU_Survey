@@ -45,13 +45,13 @@ AI_Use,1,1,AI_Use_6,I use AI to write or debug computer code.,0,0,1,0,0,Never|Ve
 AI_Use,1,1,AI_Use_7,I use AI to analyze data interpret results or create visualizations.,0,0,1,0,0,Never|Very often 
 AI_Use,1,1,AI_Use_8,I use AI to compare alternatives evaluate tradeoffs or support decisions.,0,0,1,0,0,Never|Very often 
 AI_Use,1,1,AI_Use_9,I use AI to organize or plan everyday activities such as schedules trips meals workouts or budgets.,0,0,1,0,0,Never|Very often 
-AI_Use,1,1,AI_Use_10,I use AI for entertainment or personal communication such as creating content translating languages or having conversations.,0,0,1,0,0,Never|Very often 
-AI_Use,1,1,AI_Use_11,I interact with AI-powered customer-service tools to ask questions or resolve problems.,0,0,1,0,0,Never|Very often 
-AI_Use,1,1,AI_Use_12,I use AI-powered recommendations to discover products music movies news or other content.,0,0,1,0,0,Never|Very often 
-AI_Use,1,1,AI_Use_13,I use AI for personal support of advice.,0,0,1,0,0,Never|Very often 
-AI_time,1,1,AI_time_0,Consider all your AI use and the time do you spend using AI applications on an average day and answer the following questions,0,0,0,0,1,
-AI_time,1,1,AI_time_1,How much time do you spend using AI to find information?,1,0,0,0,0,
-AI_time,1,1,AI_time_2,How much time do you spend using AI for writing and content creation?,1,0,0,0,0,
-AI_time,1,1,AI_time_3,How much time do you spend using AI for learning and studying?,1,0,0,0,0,
-AI_time,1,1,AI_time_4,How much time do you spend using AI for work and productivity?,1,0,0,0,0,
-AI_time,1,1,AI_time_5,How much time do you spend using AI for personal advice or emotional support?,1,0,0,0,0,
+AI_Use,1,1,AI_Use_10,I interact with AI-powered customer-service tools to ask questions or resolve problems.,0,0,1,0,0,Never|Very often 
+AI_Use,1,1,AI_Use_11,I use AI-powered recommendations to discover products music movies news or other content.,0,0,1,0,0,Never|Very often 
+AI_Use,1,1,AI_Use_12,I use AI for personal support of advice.,0,0,1,0,0,Never|Very often 
+AI_time,1,0,AI_time_0,Consider all your AI use and the time you spend using AI applications on an average day and answer the following questions,0,0,0,0,1,
+AI_time,1,0,AI_time_1,How many daily hours do you spend using AI in general?,1,0,0,0,0,
+AI_time,1,1,AI_time_2,How many hours do you spend using AI to find information?,1,0,0,0,0,
+AI_time,1,1,AI_time_3,How many hours do you spend using AI for writing and content creation?,1,0,0,0,0,
+AI_time,1,1,AI_time_4,How many hours do you spend using AI for learning and studying ?,1,0,0,0,0,
+AI_time,1,1,AI_time_5,How many hours do you spend using AI for work and productivity?,1,0,0,0,0,
+AI_time,1,1,AI_time_6,How many hours do you spend using AI for personal advice or emotional support?,1,0,0,0,0,
