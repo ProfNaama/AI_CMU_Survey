@@ -1,0 +1,52 @@
+block_name,allow_block_permutation,allow_question_permutation,question_name,question_text,is_text,is_likert,is_grouped_likert,is_multi_choice,is_label,options
+Emotional_Dependence,1,1,Emotional_Dependence_0,The following statements ask about the feelings you may experience when using AI—or when AI is unavailable—to support your academic work. Please indicate how strongly you agree or disagree with each statement.,0,0,0,0,1,
+Emotional_Dependence,1,1,Emotional_Dependence_1,I feel uneasy or insecure without the help of AI.,0,0,1,0,0,Strongly disagree|Strongly agree
+Emotional_Dependence,1,1,Emotional_Dependence_2,Using AI to assist my studies makes me feel calm and relaxed.,0,0,1,0,0,Strongly disagree|Strongly agree
+Emotional_Dependence,1,1,Emotional_Dependence_3,I would feel anxious and frustrated if I could not use AI for my studies.,0,0,1,0,0,Strongly disagree|Strongly agree
+Emotional_Dependence,1,1,Emotional_Dependence_4,I have grown accustomed to completing academic tasks with AI; being without it would make me feel unsettled.,0,0,1,0,0,Strongly disagree|Strongly agree
+Emotional_Dependence,1,1,Emotional_Dependence_5,Whenever I encounter a difficult problem my first instinct is to hope that AI can help me; otherwise I feel tense.,0,0,1,0,0,Strongly disagree|Strongly agree
+Emotional_Dependence,1,1,Emotional_Dependence_6,Interacting with AI (e.g. through chat prompts) is a pleasant experience that makes me feel supported.,0,0,1,0,0,Strongly disagree|Strongly agree
+Functional_Dependence,1,1,Functional_Dependence_0,The following statements ask about the extent to which you rely on AI to complete academic tasks and improve your efficiency. Please indicate how strongly you agree or disagree with each statement.,0,0,0,0,1,
+Functional_Dependence,1,1,Functional_Dependence_1,I delegate almost all my academic tasks to AI because it performs them faster and better than I do.,0,0,1,0,0,Strongly disagree|Strongly agree
+Functional_Dependence,1,1,Functional_Dependence_2,Without the help of AI I find it difficult to complete my assignments efficiently.,0,0,1,0,0,Strongly disagree|Strongly agree
+Functional_Dependence,1,1,Functional_Dependence_3,I rely on AI’s functions (e.g. providing answers and writing suggestions) to improve my learning efficiency.,0,0,1,0,0,Strongly disagree|Strongly agree
+Functional_Dependence,1,1,Functional_Dependence_4,I can no longer manage complex academic tasks without the assistance of AI.,0,0,1,0,0,Strongly disagree|Strongly agree
+Functional_Dependence,1,1,Functional_Dependence_5,Compared with doing it myself I prefer to let AI gather information or organize content for me.,0,0,1,0,0,Strongly disagree|Strongly agree
+Functional_Dependence,1,1,Functional_Dependence_6,In my studies I rely excessively on the ready-made answers or solutions provided by AI.,0,0,1,0,0,Strongly disagree|Strongly agree
+Functional_Dependence,1,1,Functional_Dependence_7,I feel inadequate in my studies without the support of AI.,0,0,1,0,0,Strongly disagree|Strongly agree
+Cognitive_Dependence,1,1,Cognitive_Dependence_0,The following statements ask about the extent to which you rely on AI for thinking problem-solving judgment and decision-making in your academic work. Please indicate how strongly you agree or disagree with each statement.,0,0,0,0,1,
+Cognitive_Dependence,1,1,Cognitive_Dependence_1,I often ask AI for answers directly without thinking for myself first.,0,0,1,0,0,Strongly disagree|Strongly agree
+Cognitive_Dependence,1,1,Cognitive_Dependence_2,After using AI my ability to analyze and solve problems independently has declined.,0,0,1,0,0,Strongly disagree|Strongly agree
+Cognitive_Dependence,1,1,Cognitive_Dependence_3,When faced with an academic challenge I rely on AI instead of attempting to think it through on my own.,0,0,1,0,0,Strongly disagree|Strongly agree
+Cognitive_Dependence,1,1,Cognitive_Dependence_4,After using AI for an extended period I find that I have become mentally lazy and increasingly want AI to think for me.,0,0,1,0,0,Strongly disagree|Strongly agree
+Cognitive_Dependence,1,1,Cognitive_Dependence_5,I am accustomed to letting AI make judgments and decisions for me rather than fully trusting my own judgment.,0,0,1,0,0,Strongly disagree|Strongly agree
+Cognitive_Dependence,1,1,Cognitive_Dependence_6,In my studies I tend to delegate tasks that require deep thinking to AI.,0,0,1,0,0,Strongly disagree|Strongly agree
+Loss_of_Control,1,1,Loss_of_Control_0,The following statements ask about your ability to regulate and control your use of AI for academic purposes. Please indicate how strongly you agree or disagree with each statement.,0,0,0,0,1,
+Loss_of_Control,1,1,Loss_of_Control_1,Even when it is not necessary I find myself involuntarily using AI to assist with my studies.,0,0,1,0,0,Strongly disagree|Strongly agree
+Loss_of_Control,1,1,Loss_of_Control_2,I have tried to reduce my use of AI but I have never succeeded for long.,0,0,1,0,0,Strongly disagree|Strongly agree
+Loss_of_Control,1,1,Loss_of_Control_3,Once I start using AI I often find it difficult to stop even after spending considerable time on it.,0,0,1,0,0,Strongly disagree|Strongly agree
+Loss_of_Control,1,1,Loss_of_Control_4,Sometimes I know I should not rely excessively on AI but I cannot control myself.,0,0,1,0,0,Strongly disagree|Strongly agree
+Loss_of_Control,1,1,Loss_of_Control_5,I have almost no control over the frequency and duration of my AI use.,0,0,1,0,0,Strongly disagree|Strongly agree
+Loss_of_Control,1,1,Loss_of_Control_6,I could complete tasks without AI but I cannot resist using it.,0,0,1,0,0,Strongly disagree|Strongly agree
+Loss_of_Control,1,1,Loss_of_Control_7,If I do not use AI for a period of time I feel a strong urge to use it and may even become irritable.,0,0,1,0,0,Strongly disagree|Strongly agree
+Emotional_and_Social_Reliance,1,1,Emotional_and_Social_Reliance_0,The following statements ask whether you are more likely to seek emotional or social support from an AI agent than from another person. Please indicate how strongly you agree or disagree with each statement.,0,0,0,0,1,
+Emotional_and_Social_Reliance,1,1,Emotional_and_Social_Reliance_1,When I need emotional support I am more likely to turn to an AI agent than to another person.,0,0,1,0,0,Strongly disagree|Strongly agree
+Emotional_and_Social_Reliance,1,1,Emotional_and_Social_Reliance_2,I feel more comfortable sharing personal concerns with an AI agent than with another person.,0,0,1,0,0,Strongly disagree|Strongly agree
+Emotional_and_Social_Reliance,1,1,Emotional_and_Social_Reliance_3,When I need reassurance I rely more on an AI agent than on another person.,0,0,1,0,0,Strongly disagree|Strongly agree
+Emotional_and_Social_Reliance,1,1,Emotional_and_Social_Reliance_4,When I feel lonely I am more likely to seek interaction with an AI agent than with another person.,0,0,1,0,0,Strongly disagree|Strongly agree
+Emotional_and_Social_Reliance,1,1,Emotional_and_Social_Reliance_5,I feel more understood by AI agents than by the people around me.,0,0,1,0,0,Strongly disagree|Strongly agree
+Daily_Use,1,1,Daily_use,On average how many hours per day do you use AI applications?,1,0,0,0,0,
+AI_Use,,,AI_Use_0,Please indicate how often you use artificial intelligence (AI) for each of the following activities.,0,0,0,0,1,
+AI_Use,,,AI_Use_1,I use AI to find information or obtain answers to questions.,0,0,1,0,0,Never|Very often 
+AI_Use,,,AI_Use_2,I use AI to summarize articles documents or other information.,0,0,1,0,0,Never|Very often 
+AI_Use,,,AI_Use_3,I use AI to draft edit or improve written content such as emails reports or presentations.,0,0,1,0,0,Never|Very often 
+AI_Use,,,AI_Use_4,I use AI to brainstorm ideas or generate creative content.,0,0,1,0,0,Never|Very often 
+AI_Use,,,AI_Use_5,I use AI to learn new material receive explanations or study for courses.,0,0,1,0,0,Never|Very often 
+AI_Use,,,AI_Use_6,I use AI to complete work-related tasks or increase my productivity.,0,0,1,0,0,Never|Very often 
+AI_Use,,,AI_Use_7,I use AI to write explain debug or improve computer code.,0,0,1,0,0,Never|Very often 
+AI_Use,,,AI_Use_8,I use AI to analyze data interpret results or create visualizations.,0,0,1,0,0,Never|Very often 
+AI_Use,,,AI_Use_9,I use AI to compare alternatives evaluate tradeoffs or support decisions.,0,0,1,0,0,Never|Very often 
+AI_Use,,,AI_Use_10,I use AI to organize or plan everyday activities such as schedules trips meals workouts or budgets.,0,0,1,0,0,Never|Very often 
+AI_Use,,,AI_Use_11,I use AI for entertainment or personal communication such as creating content translating languages or having conversations.,0,0,1,0,0,Never|Very often 
+AI_Use,,,AI_Use_12,I interact with AI-powered customer-service tools to ask questions or resolve problems.,0,0,1,0,0,Never|Very often 
+AI_Use,,,AI_Use_13,I use AI-powered recommendations to discover products music movies news or other content.,0,0,1,0,0,Never|Very often 
