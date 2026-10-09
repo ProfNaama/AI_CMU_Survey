@@ -157,6 +157,10 @@ function renderChat(req, res, next) {
         // support emptry hidden prompt - this allows for skipping the chat part
         if (!sessionManager.getSystemRoleHiddenContent()) {
             sessionManager.setChatEnded(true);
+            // No chat to show: continue to the next step in the flow
+            // instead of ending this request with no response (which
+            // leaves the browser hanging after the pre-questionnaire).
+            next();
         } else {
             let renderParams = helpers.getRenderingParamsForPage("chat");
             renderParams["preferences"] = sessionManager.getPreferences();
@@ -173,8 +177,25 @@ function renderChat(req, res, next) {
 function renderChatQuestionnaire(req, res, next) {
     const sessionManager = getSessionManager(req.session);
     if (!sessionManager.getQuestionsAnswers()) {
+        let postQuestions = helpers.getUserTestQuestions(req, "user_post_questions");
+        if (postQuestions.length === 0) {
+            // No post-questionnaire is configured: finish the experiment
+            // directly (same completion steps as a post-questionnaire
+            // submission) instead of rendering an empty questionnaire page.
+            sessionManager.setFinished(true);
+            sessionManager.setRedirectUrl(config.redirect_url);
+            if (config.complete_code) {
+                sessionManager.setCompletionCode(config.complete_code);
+            } else if (config.generateUniqueCompletionCode) {
+                sessionManager.setCompletionCode(helpers.generateUniqueCompletionCode());
+            }
+            sessionManager.setUserQuestionnaireEndedTime(new Date().toISOString());
+            sessionManager.setQuestionsAnswers({});
+            res.redirect(302, "/");
+            return;
+        }
         let renderParams = helpers.getRenderingParamsForPage("post_questionnaire");
-        renderParams["questions"] = helpers.getUserTestQuestions(req, "user_post_questions");
+        renderParams["questions"] = postQuestions;
         renderParams["form_type"] = POST_RESPONSE_TYPES.POST_QUESTIONNAIRE;
         renderParams["form_submit_botton_text"] = 'Submit';
             
